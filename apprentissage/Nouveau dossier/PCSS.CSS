@@ -1,0 +1,21 @@
+*
+{
+    background: linear-gradient(to right,#32d2dd,#a1e6eb);
+}
+body
+{
+    margin: 5px;
+    padding: 50px;
+}
+h1{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2.80em;
+    text-align: center;
+    line-height: 24pt;
+}
+.pdiv{
+    text-align: right;
+    color: blue;
+}

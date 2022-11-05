@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+/* C'est ici que commence mon code */
+header
+{
+    height: 75vh;
+    width: 100%;
+    background: url(../webfonts/fa-solid-900.woff2);
+    background-position: center;
+    /* background: url(""); */
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+header video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 150%;
+    width: 100%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav a{
+    margin: 10px;
+    color: #bababa;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: #fff;
+    border-bottom: 2px double #7c7b7b;
+}
+
+header .principale{
+    margin-top: 90px;
+}
+
+header .principale h4{
+    margin-top: -20px;
+    padding: 20px;
+}
+/* voici la permière section */
+.partie1{
+    background: #131a23;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partie1 .gauche{
+    width: 60%;
+    text-align: center;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 810px) {
+    .partie1 .gauche{
+        width: 100%;
+    }
+    .partie1 .droite{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* ceci est la second section */
+.offre{
+    padding: 30px;
+    background: url("../Images/fr-FR\ 5\ -\ Milestone\ Certificate.png");
+    background-position: center;
+    color: rgb(102, 240, 208);
+}
+
+.offre h1, .offre p{
+    text-align: center;
+}
+
+.offre h1:hover, .offre p:hover{
+    text-decoration: underline;
+    color: rgb(172, 230, 79);
+}
+
+.offre .offre-carte{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.offre .offre-carte .carte{
+    background: #fff;
+    color: rgb(169, 32, 227);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+/* troisième section */
+.partenaire{
+    padding-top: 20px;
+    background-color: #222f3e;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.partenaire h3{
+    text-align: center;
+}
+
+.partenaire .partenaire-image{
+    display: flex;
+    overflow-x: auto;
+    margin: 10px;
+    margin-top: -30px;
+}
+
+@media screen and (min-width: 1040px) {
+    .partenaire .partenaire-image{
+        overflow-x: hidden;
+    }
+}
+
+.partenaire .partenaire-image p{
+    margin: 30px;
+}
+/* Et enfin le footer */
+footer{
+    padding-left: 20px;
+    background-color: #131a23;
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+footer .pid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    font-size: 10px;
+    border-bottom: 10px;
+}
+footer .pid span{
+    margin-right: 10px;
+}
+
+footer .pid span a{
+    text-decoration: none;
+}
+
+footer .pid span:hover{
+    text-decoration: 1px underline;
+    cursor: pointer;
+    color: aqua;
+}
+
+footer .image-socio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+footer .image-socio p{
+    margin-right: 6px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 2px;
+    text-align: center;
+    /* width: 25px; */
+    cursor: pointer;
+}

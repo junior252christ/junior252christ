@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uff-8"/>
+        <title>Recensement des etudiants de Bafing </title>
+    <head>
+    <body>
+        <form method="post" action="traitement.php">
+            <fieldset>
+                <legend><form Information essentielle</legend>
+                    <label for="Nom et Prenom"> saisir votre Nom et Prenon:</label>
+                    <input type="text" name="Non et Prenom" id="Nom et Prenom" placeholder="ex:fofana" required="required"/>
+                    <label for="email">saisir votre email obligatoire</label>
+                    <input type="email" name=" email" id="email" required="required"/>
+            </fieldset>
+            <fieldset>
+                <legend>Information Facultative</legend>
+                <p>
+                    votre genre?
+                    <input type="radio" name="sexe" value="Homme" id="homme"/>
+                    <label for="Homme">Homme</label>
+                    <input type=" radio" name="sexe" value="Femme" id="Femme"/>
+                    <label for="Femme">Femme</label>
+                    </p>
+                    <p>
+                        <label for=" numero du telephone"> mettez votre numero du telephone</label>
+                        <input type="texe" name="numero du telephone" id="numero d'etudiants"/>
+                        <textarea name="commentaire" id="commentaire"></textarea>
+                        <label for="commentaire">Avez-vous un commentaire?</label>
+                    </p>
+            </fieldset>
+        </form>
+    </body>
+    </html>
